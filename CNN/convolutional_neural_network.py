@@ -67,7 +67,7 @@ result = cnn.predict(test_image)
 print('classes of samples are:\n',training_set.class_indices)
 
 if result[0][0] == 1:
-    prediction = 'dog'
+    prediction = 'Picture of a dog'
 else:
-    prediction = 'cat'
+    prediction = 'Picture of a cat'
 print(prediction)
