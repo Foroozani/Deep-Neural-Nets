@@ -1,4 +1,4 @@
-# Convolutional Neural Network
+# Convolutional Neural Network with Tensorflow
 
 # Importing the libraries
 import tensorflow as tf
@@ -17,7 +17,7 @@ training_set = train_datagen.flow_from_directory('dataset/training_set',
                                                  batch_size = 32,
                                                  class_mode = 'binary')
 #---------------------------------------------------------------------------------
-# Preprocessing the Test set------------------------------------------------------
+# Preprocessing the Test set
 test_datagen = ImageDataGenerator(rescale = 1./255)
 test_set = test_datagen.flow_from_directory('dataset/test_set',
                                             target_size = (64, 64),
@@ -25,8 +25,7 @@ test_set = test_datagen.flow_from_directory('dataset/test_set',
                                             class_mode = 'binary')
 
 #%%
-# Part 2 - Building the CNN
-
+# Part 2 - Building the CNN-----------------------------------------------------
 # Initialising the CNN
 cnn = tf.keras.models.Sequential()
 
@@ -50,7 +49,7 @@ cnn.add(tf.keras.layers.Dense(units=128, activation='relu'))
 cnn.add(tf.keras.layers.Dense(units=1, activation='sigmoid'))
 
 #%%
-# Part 3 - Training the CNN
+# Part 3 - Training the CNN-------------------------------------------------------------------
 
 # Compiling the CNN
 cnn.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
