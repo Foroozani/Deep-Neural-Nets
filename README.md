@@ -1,2 +1,5 @@
 # Neural_Nets
-supervised/unsupervised NN
+> Convolution Neural Networks 
+
+
+**Why are convolutional neural networks better than other neural networks in processing data such as images and video?**
