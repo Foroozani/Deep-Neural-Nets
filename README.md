@@ -1,4 +1,4 @@
-# Neural_Nets
+# Deep Neural Networks
 This repository is getting updated over time :)  
 
 [COCO Dataset](https://cocodataset.org/#download)
