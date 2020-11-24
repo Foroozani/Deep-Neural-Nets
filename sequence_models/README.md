@@ -4,6 +4,10 @@ To use word vector representations of sequence models to build an Emojifier
 
 Have you ever wanted to make your text messages more expressive? Your emojifier app will help you do that. So rather than writing "Congratulations on the promotion! Lets get coffee and talk. Love you!" the emojifier can automatically turn this into "Congratulations on the promotion! +1 Lets get coffee and talk. coffee Love you! heart"
 
+![](https://github.com/Foroozani/Neural-Nets-Deep-Learning/blob/main/sequence_models/images/data_set.png)
+
+
+
 You will implement a model which inputs a sentence (such as "Let's go see the baseball game tonight!") and finds the most appropriate emoji to be used with this sentence (baseball). In many emoji interfaces, you need to remember that heart is the "heart" symbol rather than the "love" symbol. But using word vectors, you'll see that even if your training set explicitly relates only a few words to a particular emoji, your algorithm will be able to generalize and associate words in the test set to the same emoji even if those words don't even appear in the training set. This allows you to build an accurate classifier mapping from sentences to emojis, even using a small training set.
 
 In this exercise, you'll start with a baseline model (Emojifier-V1) using word embeddings, then build a more sophisticated model (Emojifier-V2) that further incorporates an LSTM.
