@@ -1,6 +1,8 @@
 # Deep Neural Networks
 
- [![dep1](https://img.shields.io/badge/Tensorflow-2.0+-brightgreen.svg)](https://www.tensorflow.org/) [![dep2](https://img.shields.io/badge/Keras-2.0+-brightgreen.svg)](https://keras.io/)![Python 3.6+](https://img.shields.io/badge/python-3.6-blue.svg)
+ [![dep1](https://img.shields.io/badge/Tensorflow-2.0+-brightgreen.svg)](https://www.tensorflow.org/) 
+ [![keras](https://img.shields.io/badge/Keras%20-%23D00000?logo=keras)](https://keras.io/)
+ [![](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue)](https://www.python.org/)
 
 
 
