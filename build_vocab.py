@@ -1,12 +1,12 @@
 #import nltk
 import re
+import spacy
 import pickle
 import argparse
 from collections import Counter
 from tqdm import tqdm_notebook
 from coco import COCO
 
-import spacy
 NLP = spacy.load('en')
 
 
